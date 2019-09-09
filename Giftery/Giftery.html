@@ -4,6 +4,8 @@
         <title>Giftery</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/all.min.css">
+        <link href="css/slick.css" rel="stylesheet"/>
+        <link href="css/slick-theme.css" rel="stylesheet"/>
         <link rel="stylesheet" href="css/Giftery.css">
         
         <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat&display=swap" rel="stylesheet">
@@ -67,74 +69,109 @@
 
         <!-- End navbar -->
 
-       
-
-        
+    
         <!-- Start header -->
         
         <ul class="categories  container-fluid justify-content-center nav nav-pills flex-column flex-sm-row ">
-                <li class="nav-item">
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#">ANNIVERSARY</a>
-                </li>
-                <li class="nav-item">
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#">HIM</a>
+          <li class="nav-item">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">ANNIVERSARY</a>
+          </li>
+          <li class="nav-item">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">HIM</a>
 
-                </li>
-                <li class="nav-item">
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#">HER</a>
+          </li>
+          <li class="nav-item">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">HER</a>
 
-                 </li>
-                <li class="nav-item">
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#">TEEN</a>
+           </li>
+          <li class="nav-item">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">TEEN</a>
 
-                </li>
-                <li class="nav-item">
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#">KID</a>
+          </li>
+          <li class="nav-item">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">KID</a>
 
-                </li>
-                <li class="nav-item">
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#">BABY</a>
+          </li>
+          <li class="nav-item">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">BABY</a>
 
-                </li>
-                <li class="nav-item">
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#">BIRTHDAY</a>
+          </li>
+          <li class="nav-item">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">BIRTHDAY</a>
 
-                </li>
-                <li class="nav-item">
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#">OCCASION</a>
+          </li>
+          <li class="nav-item">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">OCCASION</a>
 
-                </li>
-                <li class="nav-item">
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#">CATEGORY</a>
+          </li>
+          <li class="nav-item">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">CATEGORY</a>
 
-                </li>
-                <li class="nav-item" id="last-li">
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#">SALE</a>
+          </li>
+          <li class="nav-item" id="last-li">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">SALE</a>
 
-                </li>       
-        </ul>
-      
-        <!-- End Header -->
+          </li>       
+  </ul>
+
+  <!-- End Header -->
+
+
+        <!-- start caursal -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="image/IMG-20190908-WA0024.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="image/tour_eiffel_1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="image/IMG-20190908-WA0026.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+        </div>
+    
+
+
+        <!-- end caursal -->
+       
+
+        <!-- start slick slider -->
+          <div class="slick-slider-container">
+            <div class="layout">
+                <div class="container">
+                    <div class="slider slick-slider">
+                            <div>
+                                <a href="#">
+                                <img class="img-fluid img-slider rounded-circle border border-dark" src="image/IMG-20190908-WA0004.jpg"/>
+                                <h3>him</h3>
+                            </a>
+                            </div>
+                            <div>
+                                <img class="img-fluid img-slider rounded-circle border border-dark" src="image/IMG-20190908-WA0005.jpg"/>
+                                <h3>her</h3>
+                            </div>
+                            <div>
+                                <img class="img-fluid img-slider rounded-circle border border-dark" src="image/IMG-20190908-WA0006.jpg"/>
+                                <h3>her</h3>
+                            </div>
+                            <div>
+                                <img class="img-fluid img-slider rounded-circle border border-dark" src="image/IMG-20190908-WA0007.jpg"/>
+                                <h3>him</h3>
+                            </div>
+                    </div>
+                </div>           
+            </div>
+        </div>
+  
+
+
+        <!-- end slick slider -->
+    
         
        
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-
+        
                   
         <!-- Start Footer -->
         
@@ -368,6 +405,7 @@
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script> 
+        <script src="js/slick.js"></script>
         <script src="js/Giftery.js"></script>
 
     </body>
