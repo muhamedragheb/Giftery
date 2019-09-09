@@ -17,6 +17,7 @@ body
 
 
 
+
 /* Start header */
 
 .categories 
@@ -59,6 +60,79 @@ body
 
 
 /* End header */
+
+
+/* start caursol */
+.carousel-inner
+{
+    height: 750px;
+}
+.carousel-inner img{
+    height: 100%;
+}
+/* end caursol */
+
+
+/* start slick slider */
+
+
+.slick-slider-container
+{
+    background-image: url("../image/IMG-20190908-WA0025.jpg");
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+}
+.slick-slider-container .layout
+{
+    padding:40px 0 ; 
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.slick-prev:before, .slick-next:before
+{
+    font-size:27px;
+}
+.slider  a:hover{
+    text-decoration: none;
+}
+.img-slider
+{
+    margin:auto;
+}
+.slider h3
+{
+    margin-top: 20px;
+    text-align: center;
+    color:#fff;
+}
+@media screen and (max-width:600px)
+{
+    .slick-prev
+    {
+        left: 1px;
+    }
+    .slick-next 
+    {
+        right:-8px;
+    }
+}
+
+/* end slick slider */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Start Footer */
