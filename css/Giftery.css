@@ -1,0 +1,157 @@
+
+body
+{
+  font-family: 'Montserrat', sans-serif;  
+  
+}
+
+
+
+/* Start navbar */
+
+
+/* End navbar */
+
+
+/* Start header */
+
+.categories 
+{
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.categories li
+{
+
+    border-right: 1px solid #E3E3E3;
+    padding: 4px;
+    
+}
+
+#last-li
+{
+    border-right: none;
+}
+
+
+.categories li:hover
+{
+    background-color: #E3E3E3;
+    
+}
+
+.categories li a
+{
+    color: #B71226;
+    font-weight: 600;
+
+}
+
+.categories li a:hover
+{
+    color: #333;
+   
+}
+
+
+/* End header */
+
+
+/* Start occasion */
+
+
+.occasion-pra
+{
+    color: grey;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.occasion img
+{
+    border-radius: 50%;
+}
+
+.occasion-txt
+{
+    color: #B71226;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* End occasion */
+
+
+
+/* Start Products */
+
+.productName,.productPrice{
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.smallImg{
+    cursor: pointer;
+}
+.fa-star{
+    color: red;
+}
+.fa-black{
+    color:gray;
+}
+
+.myDiv{
+    width: 25%;
+    height: 300px;
+background-image: url(../images/portfolio-1.jpg);
+    background-size: cover;
+
+    float: left;
+    padding: 20px;
+    border: 1px solid #000
+}
+
+/* End Products */
+
+
+
+/* Start Footer */
+
+.page-footer
+{
+    background-color: #f3f3f3;
+}
+
+.link-icon i
+{
+    cursor: pointer;
+}
+
+.icons .link-icon i:hover
+{
+    color: #E3E3E3;
+}
+
+
+.co-wr
+{
+    background-color: #DDD;
+}
+
+.links-size a
+{
+    font-size: 13px;
+}
+
+/* End Footer */
+
+
+
+
+
+
+
+
+
+
