@@ -64,6 +64,61 @@ body
 /* End header */
 
 
+
+/*saeid */
+.product-big-image
+{   
+    position:relative;
+    height: 100%;
+    border:1px solid #000;
+}
+.product-big-image div
+{
+    position: absolute;
+    top:0;
+    right: 0;
+    left:0;
+    bottom:0;
+}
+.bigger
+{
+    display: none;
+    height: 100%;
+}
+.toshow
+{
+    display: inline;
+}
+
+#prev-img,#next-img
+{
+    font-size: 30px;
+    color:#19199A;
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    cursor: pointer;
+    z-index: 1000;
+}
+#prev-img
+{
+    left:5%;
+}
+#next-img
+{
+    right:5%;
+}
+
+#prev-img:hover,#next-img:hover
+{
+    color:#000;
+}
+
+
+
+/* slider saeid */
+
+
 .productName,.productPrice{
     font-weight: bolder;
     font-size: 20px;
