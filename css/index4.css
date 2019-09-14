@@ -106,16 +106,37 @@ a:active{
     width: 200px;
     
 }
+.owl-carousel .owl-nav
+{
+    text-align: center;
+}
+.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev
+{
+    font-size:30px;
+    margin-right:50px; 
+    background-color:rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+.owl-carousel .owl-nav button.owl-next:hover,.owl-carousel .owl-nav button.owl-prev:hover
+{
+    color:#fff;
+    background-color: #000;
+}
+.owl-carousel .owl-nav button.owl-next span,.owl-carousel .owl-nav button.owl-prev span
+{
+    display: inline-block;
+    padding:3px 22px 7px;
+}
 
-
-
-
+@media screen and (max-width:1500px)
+{
+    .owl-nav
+    {
+        display: block !important;
+    }
+}
 
 /* start progress section */
-
-
-
-
 .fa-star{
     color: gold
   }
