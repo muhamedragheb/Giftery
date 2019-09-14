@@ -69,18 +69,6 @@ body
 
 /* End header */
 
-/* start sticky nav */
-.sticky + .content {
-    padding-top: 60px;
-}
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-position: fixed;
-top: 0;
-width: 100%;
-background-color: #fff;
-}
-/* end sticky nav */
 
 
 
@@ -222,6 +210,15 @@ background-color: #fff;
 /* End budget */
 
 
+/* Start Products */
+
+
+/* End Products */
+.gifts-pro .product-item a img:hover
+{
+    transform: scale(1.2,1.2);
+    transition: transform 1s;
+}
 
 /* Start Footer */
 
