@@ -1,4 +1,384 @@
 
+
+body
+{
+  font-family: 'Montserrat', sans-serif;  
+  
+}
+
+*
+{
+   
+}
+
+/* Start navbar */
+
+.navbar-light .navbar-brand
+{
+    color: #B71226;
+}
+
+/* End navbar */
+
+
+/* Start header */
+
+.categories 
+{
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.categories li
+{
+
+    border-right: 1px solid #E3E3E3;
+    padding: 4px;
+    
+}
+
+#last-li
+{
+    border-right: none;
+}
+
+
+.categories li:hover
+{
+    background-color: #E3E3E3;
+    
+}
+
+.categories li a
+{
+    color: #B71226;
+    font-weight: 600;
+
+}
+
+.categories li a:hover
+{
+    color: #333;
+   
+}
+
+
+/* End header */
+
+
+
+/*saeid */
+.product-big-image
+{   
+    position:relative;
+    height: 100%;
+    border:1px solid #000;
+}
+.product-big-image div
+{
+    position: absolute;
+    top:0;
+    right: 0;
+    left:0;
+    bottom:0;
+}
+.bigger
+{
+    display: none;
+    height: 100%;
+}
+.toshow
+{
+    display: inline;
+}
+
+#prev-img,#next-img
+{
+    font-size: 30px;
+    color:#19199A;
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    cursor: pointer;
+    z-index: 1000;
+}
+#prev-img
+{
+    left:5%;
+}
+#next-img
+{
+    right:5%;
+}
+
+#prev-img:hover,#next-img:hover
+{
+    color:#000;
+}
+
+
+
+/* slider saeid */
+
+
+.productName,.productPrice{
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.smallImg{
+    cursor: pointer;
+}
+.fa-star{
+    color: gold
+}
+
+
+.myDiv{
+    width: 25%;
+    height: 300px;
+background-image: url(../images/portfolio-1.jpg);
+    background-size: cover;
+
+    float: left;
+    padding: 20px;
+    border: 1px solid #000
+}
+
+/*   // for image border-radius
+.imgBord{
+    
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%
+}
+*/
+
+a:active{
+   color: aqua ;
+}
+
+.owl {
+    height: 300px;
+    width: 200px;
+    
+}
+
+
+
+
+
+/* start progress section */
+
+
+
+
+.fa-star{
+    color: gold
+  }
+  
+  .rate p
+  {
+    margin-top: 10px;
+    margin-bottom:0px; 
+  }
+  
+  .progres{
+    height: 15px;
+    width: 150px;
+    background-color: gainsboro;
+  }
+  @media screen and (max-width:990px)
+  {
+    .rate h1
+    {
+      font-size:2rem;
+    }
+  }
+  
+  @media screen and (max-width:766px)
+  {
+    .rate .left
+    {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .rate h1
+    {
+      font-size:2rem;
+    }
+  }
+  
+
+
+
+
+/* Start reviews Section */
+
+.carousel-inner
+{
+    height: 750px;
+}
+.carousel-inner img{
+    height: 100%;
+}
+.top
+{
+    position: relative;
+}
+#first
+{
+    position: absolute;
+}
+
+#second
+{
+    position: absolute;
+    display: none;
+}
+
+
+
+/* End Reviews Section */
+
+/**/
+
+
+.related-pro
+{
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.slick-slider-container
+{
+    background-image: url("");
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+}
+.slick-slider-container .layout
+{
+    padding:40px 0 ; 
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.slick-prev:before, .slick-next:before
+{
+    font-size:27px;
+}
+a:hover{
+    text-decoration: none;
+}
+.img-slider
+{
+    margin:auto;
+}
+.slider h3
+{
+    margin-top: 20px;
+    text-align: center;
+    color:#fff;
+}
+@media screen and (max-width:600px)
+{
+    .slick-prev
+    {
+        left: 1px;
+    }
+    .slick-next 
+    {
+        right:-8px;
+    }
+}
+
+
+
+/* owel caursal */
+
+.fa-star{
+    color: gold
+}
+.cardProduct
+{
+    background-color: fff;
+    
+}
+.card-container
+{
+    border:none;
+}
+.cardProduct h3
+{
+    font-size: 17px;
+}
+.cardProduct .verified
+{
+    font-size: 12px;
+    color: green;
+    text-decoration: none;
+}
+.cardProduct  .rateContent i
+{
+    font-size: 12px;
+}
+.cardProduct  .rateContent span
+{
+    font-size: 13px;
+}
+.cardProduct h4
+{
+    font-size: 15px;
+}
+.cardProduct .readmore
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.cardProduct .helpful
+{
+    color: #000;
+    font-size: 12px;
+}
+
+
+
+
+
+/**/
+
+
+/* Start Footer */
+
+.page-footer
+{
+    background-color: #f3f3f3;
+}
+
+.link-icon i
+{
+    cursor: pointer;
+}
+
+.icons .link-icon i:hover
+{
+    color: #E3E3E3;
+}
+
+
+.co-wr
+{
+    background-color: #DDD;
+}
+
+.links-size a
+{
+    font-size: 13px;
+}
+
+
+
 body
 {
   font-family: 'Montserrat', sans-serif;  
@@ -359,5 +739,6 @@ a:hover{
 {
     font-size: 13px;
 }
+
 
 /* End Footer */
