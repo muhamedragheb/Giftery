@@ -108,6 +108,19 @@ a:active{
 }
 
 
+/* start sticky nav */
+.sticky + .content {
+    padding-top: 60px;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #fff;
+}
+/* end sticky nav */
+
 
 
 
