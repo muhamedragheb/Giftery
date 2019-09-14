@@ -6,17 +6,21 @@ body
 }
 
 
+
 /* Start navbar */
 
-
-.navbar-light .navbar-brand 
-{
+.navbar-light .navbar-brand
+ {
      color: #B71226;
+ }
+
+#Birthday,#Wedding,#Valentine,#Anniversary
+{
+    cursor: pointer;
 }
 
 
 /* End navbar */
-
 
 
 /* Start header */
@@ -64,96 +68,50 @@ body
 
 
 
+/* Start occasion */
 
-/* start caursol */
-.carousel-inner
+.occasion-pro img:hover
 {
-    height: 400px;
-    margin-bottom: 10px;
-
+    transform: scale(1.2,1.2);
+    transition: all 1s;
 }
-.carousel-inner img{
-    height: 100%;
-}
-/* end caursol */
 
-
-/* start slick slider */
-
-.who
+.occasion-pra
 {
     color: #B71226;
     font-weight: 600;
     font-size: 40px;
 }
 
-.slick-slider-container
-{
-    background-image: url("../image/box-3989090__340.jpg");
-    background-size: 100% 100% ;
-    background-repeat: no-repeat;
-}
-.slick-slider-container .layout
-{
-    padding:40px 0 ; 
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.slick-prev:before, .slick-next:before
-{
-    font-size:27px;
-}
-
-
-.slider  a:hover{
-    text-decoration: none;
-}
-
-.img-slider
-{
-    margin:auto;
-}
-.slider h3
-{
-    margin-top: 20px;
-    text-align: center;
-    color:#fff;
-}
-@media screen and (max-width:600px)
-{
-    .slick-prev
-    {
-        left: 1px;
-    }
-    .slick-next 
-    {
-        right:-8px;
-    }
-}
-
-/* end slick slider */
-
-
-
-/* Start random products */
-
-.rand-pro a
-{
-    text-decoration: none;
-}
-
-.rand-pro img:hover
-{
-    transform: scale(1.2,1.2);
-    transition: all 1s;
-}
-
-.random-gifts
+.occasion-gifts
 {
     color: gray;
     font-weight: 600;
     font-size: 30px;
 }
+
+.occasion img
+{
+    border-radius: 50%;
+}
+
+.occasion a
+{
+    text-decoration: none;
+}
+
+.occasion-txt
+{
+    color: #B71226;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* End occasion */
+
+
+/* Start products section */
+
 
 
 .productName,.productPrice{
@@ -194,21 +152,7 @@ a:active{
 
 
 
-/* End Random products */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* End products section */
 
 
 /* Start Footer */
@@ -240,3 +184,13 @@ a:active{
 }
 
 /* End Footer */
+
+
+
+
+
+
+
+
+
+
