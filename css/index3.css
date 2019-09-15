@@ -1,3 +1,4 @@
+
 body
 {
   font-family: 'Montserrat', sans-serif;  
@@ -5,70 +6,145 @@ body
 }
 
 
+/* slider saeid */
 
-
-
-/* Start navbar */
-
-.navbar-light .navbar-brand 
+.nav-sa3id .nav-top-left a
 {
-     color: #B71226;
+    font-size: 50px;
+}
+.nav-sa3id .nav-top-right ul
+{
+    display: flex;
+    width:100%;
+    margin-top:20px;
+    margin-bottom:10px;  
+}   
+.nav-sa3id .nav-top-right ul li a
+{
+    color: rgba(0,0,0,.5);
+}
+.nav-sa3id .bottom 
+{
+    background-color: #21d19341;
+    font-weight: 600;
+}
+.nav-sa3id .bottom ul
+{
+    margin-top:20px;
+    margin-bottom:0px;  
+    display: flex;
+    justify-items: center;
+}
+.nav-sa3id .bottom ul li
+{
+    position: relative;
+    padding: 3px 0;
+}
+.nav-sa3id .bottom ul li:before
+{
+    content:'|';
+    position: absolute;
+    top:6px;
+    font-size: 20px;
+    color:#f3f3f39a;
+}
+.nav-sa3id .bottom ul li:first-of-type:before
+{
+    content:"";
+}
+.nav-sa3id .bottom ul li a
+{
+    color: #0056b3;
+}
+.nav-sa3id .bottom ul li a:hover
+{
+    color:#000;
+}
+.nav-sa3id .resp-nav .container-fluid
+{
+    display: flex;
+    justify-content: space-around
+}
+.nav-sa3id .resp-nav
+{
+    display: none;
+}
+.btn-toggle
+{
+    background-color: #fff;
+    border-radius: 5px;
+    padding:5px ; 
+    border:none;
+    margin-right:10px;
+}
+.toggle-item
+{
+    height: 4px;
+    background-color: #000;
+    margin: 4px 0;
+    width: 27px;
+    border-radius: 10px;
+}
+@media screen and (max-width:1010px)
+{
+   
+    .nav-sa3id .top .search
+    {
+        display: none;
+    }
+    .nav-sa3id .bottom
+    {
+        display: none;
+    }
+    .nav-sa3id .resp-nav
+    {
+        display: block;
+    }
+    .nav-sa3id .nav-top-right  .zizo
+    {
+        display: none;
+    }
 }
 
-
-#ANNIVERSARY1,#ANNIVERSARY5,#ANNIVERSARY25,#ANNIVERSARY50
+.sidenav
 {
+    width:250px;
+    overflow: auto;
+    position: fixed;
+    left:-250px;
+    top:0;
+    bottom: 0;
+    background-color:rgb(34, 143, 185);
+    z-index:9999;
+}
+.list-group-item
+{
+    border-top: none;    
+    background-color: transparent;
+}
+.sidenav-links
+{
+    font-size:18px;
+    color:#fff;
+}
+.list-group-item-action:hover .sidenav-links
+{
+    text-decoration: none;
+    color:#414658;
+}
+#close
+{
+    color:#fff;
     cursor: pointer;
+
 }
 
+ .navbar-brand 
+{
+    color: #135fafc4;
+} 
 
 /* End navbar */
-
-
-
-/* Start header */
-
-.categories 
-{
-    border-bottom: 1px solid #E3E3E3;
-}
-
-.categories li
-{
-
-    border-right: 1px solid #E3E3E3;
-    padding: 4px;
-    
-}
-
-#last-li
-{
-    border-right: none;
-}
-
-
-.categories li:hover
-{
-    background-color: #E3E3E3;
-    
-}
-
-.categories li a
-{
-    color: #B71226;
-    font-weight: 600;
-
-}
-
-.categories li a:hover
-{
-    color: #333;
-   
-}
-
-
-/* End header */
-
 
 
 
@@ -106,6 +182,7 @@ body
     position: relative;
 }
 
+
 #anniversary .anniversary-title {
     background-color: rgba(0, 0, 0, .7);
     position: absolute;
@@ -119,10 +196,14 @@ body
     font-weight: 400;
     font-size: 19px;
 }
+
+
+
 /*end anniversary */
 
 
 /* start budget */
+
 #budget .budget-header {
     font-size: 1.5rem;
     font-family: arial, sans-serif;
@@ -130,6 +211,7 @@ body
     text-transform: uppercase;
     position: relative;
     background-color: #fff;
+    
 }
 
 
@@ -175,6 +257,7 @@ body
     right: 0;
     background-color: rgb(0,0,0,.7);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 @media (max-width:991px)
@@ -203,22 +286,37 @@ body
         width: 23%;
     }
 }
+
 /* start budget */
+
 .fa-star{
     color: gold
 }
+
 /* End budget */
 
 
 /* Start Products */
 
+.product-item .img-container
+{
+    overflow: hidden;
+}
 
-/* End Products */
+.des-color
+{
+    color: #0056b3;
+}
+
 .gifts-pro .product-item a img:hover
 {
     transform: scale(1.2,1.2);
-    transition: transform 1s;
+    transition: transform 1.5s;
 }
+
+/* End Products */
+
+
 
 /* Start Footer */
 
@@ -234,7 +332,7 @@ body
 
 .icons .link-icon i:hover
 {
-    color: #E3E3E3;
+    color: #0057b3a8;
 }
 
 

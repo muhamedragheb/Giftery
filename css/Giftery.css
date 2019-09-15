@@ -8,57 +8,143 @@ body
 
 /* Start navbar */
 
-
-.navbar-light .navbar-brand 
+.nav-sa3id .nav-top-left a
 {
-     color: #B71226;
+    font-size: 50px;
 }
-
-
-/* End navbar */
-
-
-
-/* Start header */
-
-.categories 
+.nav-sa3id .nav-top-right ul
 {
-    border-bottom: 1px solid #E3E3E3;
+    display: flex;
+    width:100%;
+    margin-top:20px;
+    margin-bottom:10px;  
+}   
+.nav-sa3id .nav-top-right ul li a
+{
+    color: rgba(0,0,0,.5);
 }
-
-.categories li
+.nav-sa3id .bottom 
 {
-
-    border-right: 1px solid #E3E3E3;
-    padding: 4px;
-    
-}
-
-#last-li
-{
-    border-right: none;
-}
-
-
-.categories li:hover
-{
-    background-color: #E3E3E3;
-    
-}
-
-.categories li a
-{
-    color: #B71226;
+    background-color: #21d19341;
     font-weight: 600;
-
 }
-
-.categories li a:hover
+.nav-sa3id .bottom ul
 {
-    color: #333;
+    margin-top:20px;
+    margin-bottom:0px;  
+    display: flex;
+    justify-items: center;
+}
+.nav-sa3id .bottom ul li
+{
+    position: relative;
+    padding: 3px 0;
+}
+.nav-sa3id .bottom ul li:before
+{
+    content:'|';
+    position: absolute;
+    top:6px;
+    font-size: 20px;
+    color: #f3f3f39a;
+}
+.nav-sa3id .bottom ul li:first-of-type:before
+{
+    content:"";
+}
+.nav-sa3id .bottom ul li a
+{
+    color:#0056b3;
+}
+.nav-sa3id .bottom ul li a:hover
+{
+    color:#000;
+}
+.nav-sa3id .resp-nav .container-fluid
+{
+    display: flex;
+    justify-content: space-around
+}
+.nav-sa3id .resp-nav
+{
+    display: none;
+}
+.btn-toggle
+{
+    background-color: #fff;
+    border-radius: 5px;
+    padding:5px ; 
+    border:none;
+    margin-right:10px;
+}
+.toggle-item
+{
+    height: 4px;
+    background-color: #000;
+    margin: 4px 0;
+    width: 27px;
+    border-radius: 10px;
+}
+@media screen and (max-width:1010px)
+{
    
+    .nav-sa3id .top .search
+    {
+        display: none;
+    }
+    .nav-sa3id .bottom
+    {
+        display: none;
+    }
+    .nav-sa3id .resp-nav
+    {
+        display: block;
+    }
+}
+@media screen and (max-width:1010px)
+{
+    .nav-sa3id .nav-top-right  .zizo
+    {
+        display: none;
+    }
+}
+.sidenav
+{
+    width:250px;
+    overflow: auto;
+    position: fixed;
+    left:-250px;
+    top:0;
+    bottom: 0;
+    background-color:rgb(34, 143, 185);
+    z-index:9999;
+}
+.list-group-item
+{
+    border-top: none;    
+    background-color: transparent;
+}
+.sidenav-links
+{
+    font-size:18px;
+    color:#fff;
+}
+.list-group-item-action:hover .sidenav-links
+{
+    text-decoration: none;
+    color:#414658;
+}
+#close
+{
+    color:#fff;
+    cursor: pointer;
 }
 
+ .navbar-brand 
+{
+     color: #135fafc4;
+;
+} 
 
 /* End header */
 
@@ -82,14 +168,14 @@ body
 
 .who
 {
-    color: #B71226;
+    color: rgba(88, 86, 86, 0.897);
     font-weight: 600;
     font-size: 40px;
 }
 
 .slick-slider-container
 {
-    background-image: url("../image/box-3989090__340.jpg");
+    background-image: url("../image/art-celebration-christmas-1740756.jpg");
     background-size: 100% 100% ;
     background-repeat: no-repeat;
 }
@@ -97,7 +183,7 @@ body
 {
     padding:40px 0 ; 
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .slick-prev:before, .slick-next:before
 {
@@ -137,6 +223,11 @@ body
 
 /* Start random products */
 
+.img-container
+{
+    overflow: hidden;
+}
+
 .rand-pro a
 {
     text-decoration: none;
@@ -145,7 +236,7 @@ body
 .rand-pro img:hover
 {
     transform: scale(1.2,1.2);
-    transition: all 1s;
+    transition: all 1.5s ;
 }
 
 .random-gifts
@@ -188,23 +279,8 @@ body
 }
 */
 
-a:active{
-   color: aqua;
-}
-
-
 
 /* End Random products */
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -225,7 +301,7 @@ a:active{
 
 .icons .link-icon i:hover
 {
-    color: #E3E3E3;
+    color: #0057b3a8;
 }
 
 
